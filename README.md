@@ -34,3 +34,8 @@ Market status uses U.S. Eastern time, regular weekday hours (9:30 a.m.-4:00 p.m.
 ## BNB Agent Studio trial
 
 [`agent-profile.json`](./agent-profile.json) records the requested Studio settings: `stockwatch`, BSC testnet, default wallet and LLM, $0 seller price, A2A and MCP, and a 48-hour testnet trial. This repository does not contain a usable Agent Studio SDK or hosted Studio connection, so the profile is a deployment handoff, not a live seller listing or an activated trial. The hosted default wallet/LLM, public protocol URLs, trial activation, and payout/listing state must be confirmed in Agent Studio.
+
+
+NOTA: EL PROMPT QUE LE DIMOS A CURSOR FUE EL SIGUIENTE: /bnbagent-studio Create a BNB Chain seller agent named stockwatch.
+Start on BSC testnet with the default wallet and LLM. Price it at
+0 USD. Expose A2A and MCP. It takes a tokenized stock ticker and returns a short report: on-chain price vs reference price and whether the market is open. Prepare it for the 48-hour BNB testnet trial.
