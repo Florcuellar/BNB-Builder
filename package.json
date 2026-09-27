@@ -1,15 +1,17 @@
 {
-  "name": "mi-agente-bnb",
+  "name": "stockwatch",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Read-only tokenized stock price and U.S. market status agent for BSC testnet",
+  "main": "agent.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsx agent.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts"
   },
-  "keywords": [],
+  "keywords": ["bnb-chain", "bsc-testnet", "stockwatch", "mcp", "a2a"],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
     "@types/node": "^26.6.3",
     "ts-node": "^10.9.2",

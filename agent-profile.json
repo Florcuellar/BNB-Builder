@@ -1,0 +1,22 @@
+{
+  "name": "stockwatch",
+  "network": "bsc-testnet",
+  "wallet": "default",
+  "llm": "default",
+  "sellerPrice": {
+    "amount": 0,
+    "currency": "USD"
+  },
+  "protocols": [
+    "A2A",
+    "MCP"
+  ],
+  "trial": {
+    "network": "bsc-testnet",
+    "durationHours": 48
+  },
+  "capability": {
+    "input": "A tokenized stock ticker",
+    "output": "A short on-chain price versus reference price report and U.S. market status"
+  }
+}
